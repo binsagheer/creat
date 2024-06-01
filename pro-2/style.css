@@ -1,0 +1,219 @@
+*{margin: 0;padding: 0;box-sizing: border-box;}
+:root{font-family: Verdana,sans-serif;}
+.navbar{width: 100%;height: 60px;background-color: white;padding: 5px 40px;  box-shadow: 0 1rem 2rem hsl(0 0% 0% / 20%);letter-spacing: 4px;}
+.navbar ul{padding-inline-start: 0px;}
+.navbar ul li{list-style: none;position: relative;padding-left:50px ;font-size: 20px;}
+.nav-item a{text-decoration: none;color: black;}
+.nav-item  ul li{padding: 5px;margin-left: 40px;display: inline-block;font-stretch: expanded;}
+.nav-item ul li:hover{background-color: #C8C8C8;}
+.navbar h3 span{font-size: 20px ;color: rgb(0, 0, 0);font-weight: normal;padding-left: 10px;font-family: Arial, Helvetica, sans-serif;}
+/* .navbar ul li:nth-child(2){margin-left: auto;} */
+/* ====================================================== */
+
+.project-showcase{width: 100%;height: 600px;position: relative;
+}
+.project-showcase::before{
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    top: 0; left: 0; right: 0; bottom: 0;
+    background: url(img/headre.jpg) no-repeat center / cover;
+    
+}
+.show-text h2 {color: white;}
+
+.show-text h2 span{background-color: rgba(12, 12, 12, 0.589);padding: 5px 10px;color: white;font-size: 36px;}
+.project-showcase {display: grid;place-items: center;}
+
+/* ==================================================== */
+
+ .project-1 .row>*{padding-right:0px !important;}
+ .project-2 .row>*{padding-right:0px !important;}
+ /* .container .project-section{max-width: 1240px;} */
+
+  /* .project-1 .row{display: flex;justify-content: center;align-items: center;flex-direction: row;} */
+  /* .project-1{position: relative;} */
+  
+.a1  img{width: 100%;height: 100%;object-fit: cover;}
+.a2 img{width: 100%;height: 100%;object-fit: cover;}
+.a3 img{width: 100%;height: 100%;object-fit: cover;}
+ .a4 img{width: 100%;height: 100%;object-fit: cover;}
+
+
+ .project-1 .row>*{position: relative;}
+.a1::before{
+    content: 'Summer House';
+    position: absolute;
+    width: 120px;
+    height: 30px;
+    top: 0;
+    left: 12px;
+    right: 80px;
+    background-color: black;
+    color: white;
+    font-size: 16px;
+z-index: 555;
+padding: 0px 5px;
+}
+.project-1 .row>*{position: relative;}
+.a2::before{
+    content: 'Ground FLoor House';
+    position: absolute;
+  
+    height: 30px;
+    top: 0;
+    left: 12px;
+    background-color: black;
+    color: white;
+    font-size: 16px;
+z-index: 555;
+padding: 0px 5px;
+}
+.project-1 .row>*{position: relative;}
+.a3::before{
+    content: 'Winter House';
+    position: absolute;
+   
+    height: 30px;
+    top: 0;
+    left: 12px;
+    background-color: black;
+    color: white;
+    font-size: 16px;
+z-index: 555;
+padding:0px 5px;
+}
+.project-1 .row>*{position: relative;}
+ .a4::before{
+    content: 'Summer House';
+    position: absolute;
+
+    height: 30px;
+    top: 0;
+    left:12px;
+    background-color: black;
+    color: white;
+    font-size: 16px;
+z-index: 555;
+padding: 0px 5px;
+}  
+
+/* .container .project-section-B{max-width: 1240px;} */
+
+.project-2 .row>*{position: relative;}
+.b1::before{
+    content: 'Summer House';
+    position: absolute;
+
+    height: 30px;
+    top: 0;
+    left:12px;
+    background-color: black;
+    color: white;
+    font-size: 16px;
+z-index: 555;
+padding: 0px 5px;
+} 
+.project-2 .row>*{position: relative;}
+.b2::before{
+    content: 'Winter House';
+    position: absolute;
+   
+    height: 30px;
+    top: 0;
+    left: 12px;
+    background-color: black;
+    color: white;
+    font-size: 16px;
+z-index: 555;
+padding:0px 5px;
+}
+.project-2 .row>*{position: relative;}
+.b3::before{
+    content: 'Winter House';
+    position: absolute;
+   
+    height: 30px;
+    top: 0;
+    left: 12px;
+    background-color: black;
+    color: white;
+    font-size: 16px;
+z-index: 555;
+padding:0px 5px;
+}
+.project-2 .row>*{position: relative;}
+.b4::before{
+    content: 'Summer House';
+    position: absolute;
+    width: 120px;
+    height: 30px;
+    top: 0;
+    left: 12px;
+    right: 80px;
+    background-color: black;
+    color: white;
+    font-size: 16px;
+z-index: 555;
+padding: 0px 5px;
+}
+
+.b1  img{width: 100%;height: 100%;object-fit: cover;}
+.b2 img{width: 100%;height: 100%;object-fit: cover;}
+.b3 img{width: 100%;height: 100%;object-fit: cover;}
+ .b4 img{width: 100%;height: 100%;object-fit: cover;
+    }
+    .project-section-B{margin-top: -40px;}
+    .project-section h3{font-family: inherit;font-weight: unset;font-size: 24px;}
+
+
+
+    /* ============================================================= */
+
+
+    .bout h3{font-family: inherit;font-weight: unset;font-size: 24px;}
+    .card-1-text{display: flex;justify-content: flex-start;align-content: center;flex-direction: column;}
+    .card-1-image img{width: 100%;height: 100%;object-fit: cover;filter: grayscale(1);}
+    .card-1-btn button{width: 100%;padding:3px 10px ;color: rgb(28, 27, 27);background-color:#dddbdb ;border: none;font-size: 20px;}
+    .card-1-btn button:hover{background-color: rgba(83, 79, 79, 0.486);color: black;text-align: center;}
+    .card-1-text h3{font-family: inherit;font-weight: unset;font-size: 26px;}
+    .about-main .row>*{padding-right: 0px;}
+
+
+
+
+
+    .contect-form h3{font-family: inherit;font-weight: unset;font-size: 24px;}
+    .form-btn{border-radius: 0px !important;padding: 8px 20px;}
+    .form-check-input:checked {
+        background-color: #aee700;
+        border-color: #fdd40d;
+    }
+    .owl-carousel .owl-theme .item{width: 300px;height: 350px;}
+        .rating-card{padding: 10px;width: 100%;}
+        .rating-card b{font-style: italic;color: rgb(35, 35, 27);margin-left: 75px;}
+    .rating-card .rating-card img{width: 100%;height: 100%;object-fit: cover;}
+
+    .fa-solid .fa-star{color: rgb(46, 46, 43);}
+    .rank{text-align: center;}
+
+     .rank .fa-solid{color: #f5f550;}
+     .rank{margin: 2px  20px 20px 20px;}
+
+
+     /* ===================map=========================== */
+     .map{width: 100%;position: relative;height: 800px;}
+     /* .map{background: url(img/map.jpg) no-repeat center center/cover;} */
+     .map::before{
+        content: '';
+        width: 100%;height: 100%;
+        position: absolute;
+        top: 0;
+        left: 0;
+        background:url(img/map.jpg) no-repeat center center/cover ;
+        z-index: -1;
+     }
+     .footer{background-color: black;color: white;height: 90px;width: 100%;display: grid;place-items: center;}
+     .footer p a{color: white;}
